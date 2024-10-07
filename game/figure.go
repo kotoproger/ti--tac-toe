@@ -1,7 +1,9 @@
 package game
 
-type FigureName string
-type FigureSign rune
+type (
+	FigureName string
+	FigureSign rune
+)
 
 const (
 	CrossName FigureName = "cross"
