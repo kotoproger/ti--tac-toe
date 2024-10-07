@@ -24,7 +24,7 @@ jobs:
         uses: golangci/golangci-lint-action@v3
         with:
           version: v1.53.3
-          working-directory: ./
+          working-directory: .
 
   tests:
     runs-on: ubuntu-latest
@@ -42,4 +42,4 @@ jobs:
 
       - name: Unit tests
         run: go test -v -count=100 -race -timeout=1m ./...
-        working-directory: ./
+        working-directory: .
