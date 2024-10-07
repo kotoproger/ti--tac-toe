@@ -23,3 +23,20 @@ go.work.sum
 
 # env file
 .env
+
+go-cp
+go-envdir
+go-telnet
+
+### User defined
+.idea/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+*.bak
+
