@@ -5,11 +5,11 @@ type Coordinate struct {
 	y int
 }
 
-func (c *Coordinate) getX() int {
+func (c *Coordinate) GetX() int {
 	return c.x
 }
 
-func (c *Coordinate) getY() int {
+func (c *Coordinate) GetY() int {
 	return c.y
 }
 
